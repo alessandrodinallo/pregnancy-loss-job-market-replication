@@ -9,12 +9,14 @@ authors:
   - family-names: "Di Nallo"
     given-names: "Alessandro"
     affiliation: "Universitat Pompeu Fabra"
+    orcid: "https://orcid.org/0000-0002-4272-9233"
 preferred-citation:
   type: article
   title: "Women's job market outcomes around live births and pregnancy losses"
   authors:
     - family-names: "Di Nallo"
       given-names: "Alessandro"
+      orcid: "https://orcid.org/0000-0002-4272-9233"
   journal: "Social Science Research"
   volume: 141
   start: 103450

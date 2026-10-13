@@ -39,8 +39,10 @@ The construction merges three public series from the Office for National Statist
 | File | Content | Source |
 |---|---|---|
 | `UK_inflation_ONS_2026.dta` | Consumer prices index, monthly, from January 1988 | ONS series D7BT, https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23 |
-| `employment_rate_UK.dta` | Women's employment rate, monthly, from 1971 | ONS labour market statistics |
-| `uk_ue1.dta` to `uk_ue12.dta` | Women's unemployment rate by age group, one file per region | ONS regional labour market statistics |
+| `employment_rate_UK.dta` | Employment rate of women aged 16 to 64, seasonally adjusted, monthly, March 1971 to September 2024 | ONS series LF25, https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/timeseries/lf25/lms |
+| `uk_ue1.dta` to `uk_ue12.dta` | Unemployment rate of women by age group, not seasonally adjusted, rolling three-month periods from June-August 2001; one file per region, North East to Northern Ireland | ONS dataset X02, Regional unemployment by age (women's sheets), https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/regionalunemploymentbyagex02 |
+
+The two labour-market series are the editions downloaded for the article, in December 2024 and July 2023. The Office for National Statistics has since revised the estimates from 2019 onwards, so a fresh download differs from these files in the recent years: by at most 0.1 percentage points for the employment rate, by more for the regional rates, which rest on small samples. Up to 2018 the files and the current series are identical.
 
 ## Files the full chain writes
 
