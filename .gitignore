@@ -1,0 +1,24 @@
+# Individual-level data: never commit. Everything the build writes under data/ is derived
+# from licensed survey files.
+data/Wage/*
+!data/Wage/.gitkeep
+data/*.dta
+!data/UK_inflation_ONS_2026.dta
+!data/employment_rate_UK.dta
+!data/uk_ue[0-9].dta
+!data/uk_ue1[0-2].dta
+
+# Files written by the full chain that contain a count below 20
+estimates/RB_V15E_AGE46_D20_dist.*
+figures/RB_V15E_AGE46_D20_distribution.*
+
+# Output folders and logs
+figures/*
+!figures/.gitkeep
+tables/_generated/
+*.log
+*.smcl
+*.gph
+*.stswp
+.DS_Store
+__pycache__/

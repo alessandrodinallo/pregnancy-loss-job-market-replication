@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the article."
+title: "Replication package for: Women's job market outcomes around live births and pregnancy losses"
+type: software
+authors:
+  - family-names: "Di Nallo"
+    given-names: "Alessandro"
+    affiliation: "Universitat Pompeu Fabra"
+preferred-citation:
+  type: article
+  title: "Women's job market outcomes around live births and pregnancy losses"
+  authors:
+    - family-names: "Di Nallo"
+      given-names: "Alessandro"
+  journal: "Social Science Research"
+  volume: 141
+  start: 103450
+  year: 2026
+  doi: "10.1016/j.ssresearch.2026.103450"
