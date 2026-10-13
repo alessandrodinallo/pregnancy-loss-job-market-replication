@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this package, please cite the article."
 title: "Replication package for: Women's job market outcomes around live births and pregnancy losses"
 type: software
+doi: 10.5281/zenodo.23335358
+repository-code: "https://github.com/alessandrodinallo/pregnancy-loss-job-market-replication"
+license: MIT
 authors:
   - family-names: "Di Nallo"
     given-names: "Alessandro"

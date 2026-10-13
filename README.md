@@ -1,5 +1,7 @@
 # Replication package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23335358.svg)](https://doi.org/10.5281/zenodo.23335358)
+
 **Di Nallo, A. (2026). Women's job market outcomes around live births and pregnancy losses. *Social Science Research*, 141, 103450.** https://doi.org/10.1016/j.ssresearch.2026.103450
 
 This repository holds the code behind the article and its two supplementary appendices, together with the aggregate estimates the code produced. The survey data are not included: they are distributed by the UK Data Service under licence and cannot be shared, in original or in derived form.
@@ -77,7 +79,11 @@ The files in `estimates/` are aggregate: coefficients, standard errors, test sta
 
 Code: MIT licence. Documentation and aggregate estimates: CC BY 4.0. The macroeconomic series in `data/` come from the Office for National Statistics and are reproduced under the Open Government Licence v3.0.
 
-If you use this package, please cite the article above.
+If you use this package, please cite the article above and the package itself:
+
+Di Nallo, A. (2026). *Replication package for: Women's job market outcomes around live births and pregnancy losses*. Zenodo. https://doi.org/10.5281/zenodo.23335358
+
+This DOI always points to the latest version of the package.
 
 ## Acknowledgements
 
