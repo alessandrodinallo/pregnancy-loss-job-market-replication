@@ -1,0 +1,20 @@
+{
+  "title": "Replication package for: Women's job market outcomes around live births and pregnancy losses",
+  "upload_type": "software",
+  "description": "<p>Code, aggregate estimates and documentation behind the article: Di Nallo, A. (2026). Women's job market outcomes around live births and pregnancy losses. <em>Social Science Research</em>, 141, 103450. https://doi.org/10.1016/j.ssresearch.2026.103450</p><p>The package holds the Stata do-files that build the analysis dataset from Understanding Society and estimate every model, the scripts that write the tables and draw the figures, and the aggregate estimates, so that tables and figures can be regenerated without the survey data. The survey data are distributed by the UK Data Service under licence and are not included.</p>",
+  "creators": [
+    {
+      "name": "Di Nallo, Alessandro",
+      "affiliation": "Universitat Pompeu Fabra; Max Planck Institute for Demographic Research; Dondena Centre, Bocconi University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["pregnancy loss", "child penalty", "labour market", "event study", "Understanding Society", "replication package"],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.ssresearch.2026.103450",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
